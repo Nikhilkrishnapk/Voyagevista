@@ -1,0 +1,707 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(218, 221, 208);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(218, 221, 208);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+}
+
+nav h1 {
+    margin-left: 100px;
+    font-family: "Playwrite CU", cursive;
+    color: rgb(54, 76, 228);
+}
+
+span img {
+    width: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav ul li {
+    width: 80px;
+    height: 25px;
+    margin-right: 5px;
+    list-style: none;
+    font-family: "Ubuntu", serif;
+}
+
+.contact-btn {
+    background-color: rgb(54, 76, 228);
+    border-radius: 50px;
+    border: none;
+    overlay: none;
+}
+
+.cont-btn {
+    margin-left: 12px;
+}
+
+.contact-btn a {
+    color: rgb(218, 221, 208);
+}
+
+.link .navhome {
+    color: rgb(54, 76, 228);
+    text-decoration: underline;
+}
+
+#check {
+    display: none;
+}
+
+.icon {
+    position: absolute;
+    right: 5%;
+    font-size: x-large;
+    display: none;
+}
+
+.link a {
+    color: white;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color: rgb(54, 76, 228);
+}
+
+.contact-btn:hover {
+    background-color: rgb(218, 221, 208);
+    color: rgb(54, 76, 228);
+    border: 1px solid rgb(54, 76, 228);
+}
+
+
+/* landing page styling */
+header {
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header h1 {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(218, 221, 208);
+    font-family: "Arsenal SC", serif;
+}
+
+.homeimg img {
+    width: 100%;
+    height: 800px;
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.homeimg img:hover {
+    filter: brightness(70%);
+    transition: 1s ease-in-out;
+}
+
+.image-heading {
+    z-index: 1;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Josefin Sans", serif;
+    color: rgb(218, 221, 208);
+}
+
+/* explorer section styling */
+#explore {
+    background-color: rgb(218, 221, 208);
+    width: 100%;
+    height: 100vh;
+}
+
+#explore p {
+    color: black;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 0 0 40px;
+}
+
+.desti-one {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desti-one h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px 0px 0px 40px;
+    font-family: "Josefin Sans", serif;
+}
+
+.desti-one button {
+    width: 200px;
+    margin-right: 40px;
+    height: 30px;
+    color: black;
+    border: 1px solid;
+    background-color: rgb(218, 221, 208);
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Josefin Sans", serif;
+    font-weight: 600;
+    color: rgb(54, 76, 228);
+}
+
+.desti-one button:hover {
+    background-color: rgb(54, 76, 228);
+    color: rgb(218, 221, 208);
+}
+
+.desti-two {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+}
+
+.desti-two div {
+    width: 470px;
+    height: 400px;
+    margin: 50px 3px;
+}
+
+.desti-two-images {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.desti-two-heading {
+    color: black;
+    font-family: "Josefin Sans", serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* tours styling */
+#tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.tour-video {
+    max-width: 100%;
+    min-height: 100vh;
+    filter: brightness(70%);
+    z-index: -1;
+}
+
+.tour-head {
+    position: absolute;
+    font-size: 5rem;
+    color: rgb(218, 221, 208);
+    font-weight: 600;
+    text-align: center;
+    font-family: "Arsenal SC", serif;
+    margin-top: 300px;
+
+}
+
+.tour-head button {
+    width: 210px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: medium;
+    color: rgb(218, 221, 208);
+    background-color: rgb(54, 76, 228);
+    cursor: pointer;
+}
+
+.curved-line {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(218, 221, 208);
+    border-radius: 0 0 50% 50%;
+    z-index: 1;
+    /* border:3px solid rgb(218,221,208);
+    border-radius:100%; */
+}
+
+/* about section */
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(218, 221, 208);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-img {
+    width: 500px;
+    height: 600px;
+    border: none;
+    border-top-right-radius: 40px;
+    margin-top: 95px;
+}
+
+.about-discription h1,
+p {
+    color: black;
+}
+
+.dis-icon {
+    color: black;
+}
+
+.about-discription {
+    margin-top: 90px;
+    margin-left: 50px;
+    color: black;
+}
+
+.elsewr {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    background: #121FCF;
+    background: radial-gradient(circle farthest-corner at center center, #121FCF 0%, #BB15CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.by {
+    margin-left: 80px;
+    font-size: 12px;
+}
+
+.about-h1 {
+    font-family: "Josefin Sans", serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 20px;
+    background: radial-gradient(circle farthest-corner at center center, #121FCF 0%, #BB15CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-p2 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: "Ubuntu", serif;
+}
+
+.about-btn button {
+    padding: 10px;
+    background-color: rgb(194, 195, 190);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.about-p2 {
+    font-family: "Ubuntu", serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.about-btn2 {
+    padding: 10px;
+    background-color: rgb(54, 76, 228);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* contact section */
+
+#contact {
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/rb_49810.png);
+    background-size: cover;
+    text-align: center;
+}
+
+#contact img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+#contact h1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Josefin Sans", serif;
+    color: rgb(54, 76, 228);
+    margin-top: 20px;
+}
+
+#contact input,
+button {
+    background-color: rgb(218, 221, 208);
+    border: 0.5px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    margin: 35px 0 20px 0;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+}
+
+#contact button {
+    background-color: rgb(54, 76, 228);
+    color: white;
+    border: none;
+    overlay: none;
+    margin-left: 20px;
+}
+
+#gotootop {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(54, 76, 228);
+    margin-left: 1400px;
+    margin-top: 50px;
+    padding-top: 7px;
+}
+
+#gotootop:hover {
+    transform: rotate(30deg);
+    transition-duration: 1s;
+}
+
+#contact p {
+    margin-top: 20px;
+    color: rgb(85, 85, 84);
+    font-family: "Ubuntu", serif;
+    font-weight: 200;
+}
+
+.privacypolicy {
+    color: rgb(54, 76, 228);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Josefin Sans", serif;
+}
+
+.f-sec-1 h1 {
+    margin-top: 50px;
+    font-family: "Josefin Sans", serif;
+    font-size: 50px;
+    color: rgb(54, 76, 228);
+}
+
+.f-sec-1 img {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.f-sec-1-para {
+    color: rgb(218, 221, 208);
+    font-size: 15px;
+    margin: 20px 0 0 10px;
+}
+
+.f-sec-1 h3 {
+    margin: 40px 0 0 10px;
+}
+
+.f-sec-1 input {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(218, 221, 208);
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 9px;
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+    font-weight: 4;
+    padding: 6px;
+    padding-left: 20px;
+}
+
+.f-sec-1 button {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(54, 76, 228);
+    color: rgb(218, 221, 208);
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.f-sec-1-para a {
+    color: rgb(54, 76, 228);
+    text-decoration: underline;
+}
+
+.footerdiv h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+    color: white;
+}
+
+.footerdiv ul {
+    margin-top: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+
+.footerdiv li:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px) {
+    nav h1 {
+        margin-left: 5px;
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:768px) {
+    .logo {
+        margin-left: 15px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    #menubtn {
+        color: rgb(54, 76, 228);
+    }
+
+    #closebtn {
+        color: rgb(54, 76, 228);
+        display: none;
+    }
+
+    #check:checked~.icon #menubtn {
+        display: none;
+    }
+
+    #check:checked~.icon #closebtn {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgb(54, 76, 228);
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    #check:checked~ul {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .link a {
+        color: rgb(218, 221, 208);
+    }
+
+    .contact-btn {
+        background: none;
+    }
+
+    .link .navhome {
+        color: rgb(218, 221, 208);
+        text-decoration: underline;
+    }
+
+    .contact-btn a {
+        color: rgb(218, 221, 208);
+    }
+
+    .home-btn {
+        color: rgb(218, 221, 208);
+        text-decoration: none;
+    }
+
+    header {
+        display: inline;
+    }
+
+    .home-main-heading {
+        font-size: 2rem;
+    }
+
+    .homeimg img {
+        margin-top: -10px;
+    }
+
+    header h1 {
+        margin-top: 100px;
+    }
+
+    /* explore section */
+    #explore {
+        height: 1500px;
+
+        margin-top: -5px;
+    }
+
+    .desti-two-heading {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .desti-two {
+        display: inline;
+    }
+
+    .desti-two div {
+        margin: 40px auto;
+    }
+
+    /* tour section */
+
+    #tour {
+        width: 100%;
+        height: 400px;
+    }
+
+    .tour-head {
+        position: absolute;
+        font-size: 2rem;
+        color: rgb(218, 221, 208);
+        font-weight: 600;
+        text-align: center;
+        font-family: "Arsenal SC", serif;
+        margin-top: 0px;
+    }
+
+    .tour-head button {
+        margin-top: 20px;
+    }
+
+    /* about section */
+    #about {
+        display: block;
+        height: 1400px;
+    }
+
+    /* contact section */
+    #contact h1 {
+        font-size: 40px;
+    }
+
+    #gotootop {
+        margin-left: 600px;
+    }
+
+    /* footer section */
+    footer div {
+        width: 200px;
+        min-height: 100vh;
+    }
+
+    .f-sec-1 input {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .f-sec-1 button {
+        width: 150px;
+        margin-top: 10px;
+
+    }
+}

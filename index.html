@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfoli</title>
+    <!-- css linking -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- navigation bar -->
+        <nav>
+            <h1 class="logo">Voyage<span><img src="./images/earthpng.png" alt="noimage"></span>Vista</h1>
+            <input type="checkbox" id="check">
+            <label for="check" class="icon">
+                <!-- menu btn -->
+                <i class="fa-solid fa-bars" id="menubtn"></i>
+                <!-- close btn -->
+                <i class="fa-regular fa-circle-xmark" id="closebtn"></i>
+            </label>
+            <ul>
+                <li class="link nvhm"><a class="navhome" href="">Home</a></li>
+                <li class="link"><a href="#explore">Explore</a></li>
+                <li class="link"><a href="#tour">Tours</a></li>
+                <li class="link"><a href="#about">About</a></li>
+                <li class="contact-btn link"><a href="#contact" class="cont-btn">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- landing page -->
+        <header id="home">
+            <!-- <div class="main-home"> -->
+            <h1>Discover story-Worthy<br>travel moments</h1>
+            <div class="home-img1 homeimg">
+                <img src="./images/mountains.jpg" alt="noimage">
+                <h2 class="image-heading">A first-time guide to<br>Laos&nbsp;<i class="fa-solid fa-arrow-right"
+                        id="i1"></i></h2>
+            </div>
+            <div class="home-img2 homeimg" id="special-item">
+                <img src="./images/ladywalking.jpg" alt="noimage">
+                <h2 class="image-heading">where to go in 2025: when to visit our best <br>in travel winners&nbsp;<i
+                        class="fa-solid fa-arrow-right" id="i2"></i></h2>
+            </div>
+            <div class="home-img3 homeimg">
+                <img src="./images/nature.jpg" alt="noimage">
+                <h2 class="image-heading">How to plan a trip to<br>the Terai&nbsp;<i class="fa-solid fa-arrow-right"
+                        id="i3"></i></h2>
+            </div>
+            <!-- </div> -->
+        </header>
+        <!-- explorer section -->
+        <section id="explore">
+            <p>PLAN YOUR TRIP</p>
+            <div class="desti-one">
+                <h1>Where to next?</h1>
+                <button>view all Destination</button>
+            </div>
+            <div class="desti-two">
+                <div>
+                    <img class="desti-two-images" src="./images/mount rushmore-GettyImages-580501537.jpg" alt="noimage">
+                    <h3 class="desti-two-heading">Mout Rushmore, South Dakota, USA</h3>
+                </div>
+                <div>
+                    <img class="desti-two-images" src="./images/Quinkan Country, Australia-2G8XMPN.jpg" alt="noimage">
+                    <h3 class="desti-two-heading">Quinkan Country, Queensland, Australia</h3>
+                </div>
+                <div>
+                    <img class="desti-two-images" src="./images/table mountain-GettyImages-467865916.jpg" alt="noimage">
+                    <h3 class="desti-two-heading">Table Mountain, Cap Town, South Africa</h3>
+                </div>
+            </div>
+        </section>
+        <!-- tour section -->
+        <section id="tour">
+            <div class="tour-head">
+                <h1>Best In Travel</h1>
+                <h2>2024</h2>
+                <button>Discover the winners</button>
+            </div>
+            <video autoplay loop muted class="tour-video">
+                <source src="./images/3135808-hd_1920_1080_24fps.mp4" type="video/mp4">
+            </video>
+            <div class="curved-line"></div>
+        </section>
+        <!-- about section -->
+        <section id="about">
+            <img class="about-img" src="./images/mountaineering-455338.jpg" alt="noimage">
+            <div class="about-discription">
+                <h1 class="elsewr">elsewhere</h1>
+                <p class="by">by Voyage <i class="fa-solid fa-earth-asia dis-icon"></i> Vista</p>
+                <h1 class="about-h1">Your dream itinerary,<br>craft with you</h1>
+                <p class="about-p2">Elsewhere by Voyage Vista connects you with an award-winning<br>local expert to
+                    craft your personalized, unforgettable trip.</p>
+                <div class="about-btn">
+                    <button>how does it works?</button>
+                    <button>who are our local experts?</button>
+                    <button>what's included?</button>
+                </div>
+                <hr>
+                <p class="about-p2">Make a trip request, connect with a local expert, and sit back while our experts
+                    craft a custom itinerary based on expertise, exclusivity, and ease. It's a trip you couldn't plan
+                    yourself, all with 24/7 on-the-ground support.</p>
+                <button class="about-btn2">Explore Elsewhere &#8594;</button>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact">
+            <img src="./images/inbox.png" alt="noimage">
+            <h1>Travel inspiration delivered<br>directly to your inbox</h1>
+            <input type="email" placeholder="Email address">
+            <button>subscribe now</button>
+            <p>Subscribes to our news letter and promotions.Read our <span class="privacypolicy">privacy policy.</span>
+            </p>
+            <a class="gototop" href="#home"><i class="fa-solid fa-arrow-up" id="gotootop"></i></a>
+        </section>
+        <!-- footer section -->
+        <footer id="footer">
+            <div class="f-sec-1 ">
+                <h1>Voyage vista</h1>
+                <p class="f-sec-1-para">For Explorers Eveywhere</p>
+                <h3>FOLLOW US</h3>
+                <img src="./images/social-media-5995251_1920.png" alt="noimage">
+                <h3>SUBSCRIBE</h3>
+                <p class="f-sec-1-para">Get 20% Off Your First Order</p>
+                <input type="email" placeholder="email address">
+                <br>
+                <button>Subscribe now</button>
+                <p class="f-sec-1-para">Subscribe to Voyage Vista newsletters and promotions. <br>Read our <a
+                        href="#">Privacy Policy</a></p>
+            </div>
+            <div class="f-sec-2 footerdiv">
+                <h3>TOP DESTINATIONS</h3>
+                <ul>
+                    <li>New York City</li>
+                    <li>Paris</li>
+                    <li>Italy</li>
+                    <li>Costarica</li>
+                    <li>Japan</li>
+                    <li>USA</li>
+                    <li>Amsterdam</li>
+                    <li>Portugal</li>
+                    <li>Cancun</li>
+                    <li>Chicago</li>
+                    <li>England</li>
+                    <li>Tokyo</li>
+                    <li>France</li>
+                    <li>Thiland</li>
+                    <li>Ireland</li>
+                    <li>Rome</li>
+                    <li>London</li>
+                    <li>LosAngeles</li>
+                    <li>Mexico</li>
+                    <li>Sanfrancisco</li>
+                    <li>Explore More Destinations</li>
+                </ul>
+            </div>
+            <div class="f-sec-3 footerdiv">
+                <h3>TRAVEL INTERESTS</h3>
+                <ul>
+                    <li>Adventure Travel</li>
+                    <li>Art and Culture</li>
+                    <li>Beaches,Coasts and Islands</li>
+                    <li>Family Holidays</li>
+                    <li>Festivals</li>
+                    <li>Food and Drink</li>
+                    <li>Honeymoon and Romance</li>
+                    <li>Road Trips</li>
+                    <li>Sustainable Travel</li>
+                    <li>Travel on a Budget</li>
+                    <li>Wildlife and Nature</li>
+                </ul>
+            </div>
+            <div class="f-sec-4 footerdiv">
+                <h3>SHOP</h3>
+                <ul>
+                    <li>Destination Guides</li>
+                    <li>Voyage Vista Kids</li>
+                    <li>Voyage Vista Shops</li>
+                    <li>Non-English Guides</li>
+                </ul>
+                <h3>ABOUT US</h3>
+                <ul>
+                    <li>About VoyageVista</li>
+                    <li>Contact Us</li>
+                    <li>Trade and Advertising</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Work For Us</li>
+                    <li>Write For Us</li>
+                    <li>Sitemap</li>
+                    <li>Consumer Health Data Privacy Policy</li>
+                    <li>Do not sell or share my Personal information</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

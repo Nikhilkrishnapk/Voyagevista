@@ -1,0 +1,45 @@
+<!-- landing home -->
+        <main class="home">
+            <div class="main-home">
+                <h1 class="home-main-heading">Discover story-Worthy<br>travel moments</h1>
+                <div class="home-img1 homeimg">
+                    <img src="./images/mountains.jpg" alt="noimage">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    <h2 class="image-heading">A first-time guide to<br>Laos</h2>
+                </div>
+                <div class="home-img2 homeimg" id="special-item">
+                    <img src="./images/ladywalking.jpg" alt="noimage">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    <h2 class="image-heading">where to go in 2025:<br> when to visit our best <br>in travel winners</h2>
+                </div>
+                <div class="home-img3 homeimg">
+                    <img src="./images/nature.jpg" alt="noimage">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                    <h2 class="image-heading">How to plan a trip to<br>the Terai</h2> 
+                </div>
+            </div>
+        </main>
+
+        <!-- destination section -->
+
+        <section id="planning">
+            <p>PLAN YOUR TRIP</p>
+            <div class="desti-one">
+                <h1>Where to next?</h1>
+                <button>view all Destination</button>
+            </div>
+            <div class="desti-two">
+                <div>
+                    <img src="" alt="noimage">
+                    <h3></h3>
+                </div>
+                <div>
+                    <img src="" alt="noimage">
+                </div>
+                <div>
+                    <img src="" alt="noimage">
+                </div>
+            </div>
+        </section>
+
+        
